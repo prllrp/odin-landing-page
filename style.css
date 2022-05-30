@@ -5,6 +5,8 @@ body{
     align-items: center;
     margin: 0;
     padding: 0;
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
 }
 
 header{
@@ -12,32 +14,77 @@ header{
     width: 100%;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 header .logo{
     color: #F9FAF8;
     font-size: 24px;
+    font-weight: bolder;
+    margin-left: 20vw;
+}
+
+header .links{
+    color: #E5E7EB;
+    font-size: 18px;
+    margin-right: 20vw;
+}
+
+header a{
+    margin: 10px;
 }
 
 .hero{
     background-color: #1F2937;
     width: 100%;
     display: flex;
-    height: 30vh;
+    height: 35vh;
+    align-items: center;
+    gap: 15px;
+    padding: 10px;
+    
 }
 
 .hero h1{
     color: #F9FAF8;
     font-size: 48px;
-    font-style: extra-bold;
+    font-weight: bolder;
+    width: 25vw;
+    margin-left: 20vw;
+    margin-bottom: 0;
+    
 }
 
 .hero p{
     color: #E5E7EB;
     font-size: 18px;
+    margin-left: 20vw;
+    width: 30vw;
+    margin-bottom: 5px;
 }
 
-.info{
+.hero button{
+    margin-left: 20vw;
+    margin-top: 10px;
+    
+    height: auto;
+    width: 200px;
+    background-color: #3882F6;
+    color: #E5E7EB;
+    font-size: 24px;
+    font-weight: bolder;
+    border-radius: 10px;
+    border-style: none;
+}
+
+.hero img{
+    width: 25vw;
+    height: auto;
+    margin: 10px;
+}
+
+
+.information{
     height: 30vh;
 }
 
@@ -55,6 +102,26 @@ header .logo{
     background-color: #3882F6;
     width: 100%;
 }
+
+a:link {
+    text-decoration: none;
+    color: #E5E7EB;
+  }
+  
+  a:visited {
+    text-decoration: none;
+    color: #E5E7EB;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+    color: #E5E7EB;
+  }
+  
+  a:active {
+    text-decoration: underline;
+    color: #E5E7EB;
+  }
 
 footer{
     background-color: #1F2937;
